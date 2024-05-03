@@ -2816,7 +2816,7 @@ declare namespace $effect {
  * Declares the props that a component accepts. Example:
  *
  * ```ts
- * let { optionalProp = 42, requiredProp, bindableProp = $bindable() }: { optionalProp?: number; requiredProps: string; bindableProp: boolean } = $props();
+ * let { optionalProp = 42, requiredProp, bindableProp = $bindable() } = $props<{ optionalProp?: number; requiredProps: string; bindableProp: boolean }>();
  * ```
  *
  * https://svelte-5-preview.vercel.app/docs/runes#$props
